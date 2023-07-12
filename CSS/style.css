@@ -12,3 +12,67 @@ body{
     background-position: center;
     padding: 50px 0;
 }
+.logo img{
+    width: 100%;
+}
+.main-menu nav{
+    padding: 0;
+    justify-content: flex-end;
+
+}
+.main-menu .navbar-collapse{
+    justify-content: flex-end;
+}
+.main-menu .navlink{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+    padding: 10px 15px;
+
+}
+.main-menu .nav-link:hover{
+     background: #FCA311;
+
+    border-radius: 5px;
+    color: #000;
+}
+.main-menu .nav-link .active{
+    background:#FCA311 ;
+    border-radius: 5px;
+}
+.main-menu .navbar-nav{
+    gap: 30px;
+}
+.banner-content h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FCA311;
+}
+.banner-content h1{
+    font-size: 64px;
+    line-height: 75px;
+    max-width: 597px;
+    color: #FCA311;
+    margin-bottom: 20px;
+
+}
+.banner-content p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+    max-width: 610px;
+}
+.primary-btn{
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    background: #FCA311;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
