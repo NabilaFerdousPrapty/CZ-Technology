@@ -1,0 +1,308 @@
+/*Common CSS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+}
+.banner{
+    background-image: url("../Images/banner_about-us.png");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    
+}
+.logo img{
+    width: 100%;
+}
+.main-menu nav{
+    padding: 0;
+    justify-content: flex-end;
+
+}
+.main-menu .navbar-collapse{
+    justify-content: flex-end;
+}
+.main-menu .navlink{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+    padding: 10px 15px;
+
+}
+.main-menu .nav-link:hover{
+     background: #FCA311;
+
+    border-radius: 5px;
+    color: #000;
+}
+.main-menu .nav-link .active{
+    background:#FCA311 ;
+    border-radius: 5px;
+}
+.main-menu .navbar-nav{
+    gap: 30px;
+}
+
+.banner-content h1{
+    text-transform: uppercase;
+
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+/* ABOUT us */
+.about_us{
+    padding: 80px;
+    
+}
+.about_us p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.about_us .top{
+    margin-top: 0px;
+     text-align: center;
+     margin-bottom: 100px;
+     
+ }
+ .top h2 {
+     font-size:36px ;
+     line-height:40px ;
+     font-weight: 700;
+     margin-bottom: 20px;
+ 
+ }
+ .top h3{
+    text-align: center;
+ }
+ .top h2 span{
+    color: #FCA311;
+}
+.about_us img{
+    width: 100%;
+    display: block;
+}
+/* HERO SECTION */
+.wraper{
+    display: flex;
+    gap: 5px;
+    
+}
+.left{
+    flex-basis: 65%;
+    background-color: #FCA311;
+    padding: 40px ;
+    position: relative;
+    
+}
+.left::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: -1000px;
+    background: #FCA311;
+}
+.right{
+    flex-basis: 35%;
+    background: #1F2324;
+    color: #fff;
+    text-align: right;
+    padding: 40px 0;
+    position: relative;
+}
+.right::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: -113px;
+    background:#1F2324;
+    
+}
+ .review{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 10px; 
+    padding-left: 20px;
+} 
+.left h2{
+    font-size:36px ;
+    line-height:40px ;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.left h3{
+    font-size:24px ;
+    line-height:30px ;
+    font-weight: 700;
+
+}
+.review img{
+    margin-left: 15px;
+}
+.review h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.review h4 span{
+    display: inline-block;
+    color: #FCA311;
+}
+.review .primary-btn{
+    margin-left: 20px;
+}
+
+.primary-btn{
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    background: #FCA311;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* mission vission */
+.mission_vission{
+    margin: 20px;
+    padding: 20px;
+}
+.mission_vission .top{
+    margin-top: 0px;
+     text-align: center;
+     margin-bottom: 100px;
+     
+ }
+ .mission_vission img{
+    width: 100%;
+    display: block;
+ }
+ .mission_vission_content{
+    margin-top: 80px;
+    
+ }
+ .mission_vission h4{
+    color: #FCA311;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+ }
+ .mision_vission_box img{
+    width: 30%;
+    margin-left: 80px;
+    
+ } 
+ .mision_vission_box{
+    text-align: center;
+    padding: 30px;
+    border: 1px solid  #3C3C3C;
+    height: 100%;
+ }
+ /* Authority_content */
+ .authority_dialogue{
+    margin: 50px;
+padding: 50px;
+ }
+ .authority_dialogue .top{
+    margin-top: 0px;
+     text-align: center;
+     margin-bottom: 100px;
+     text-align: center;
+     
+ }
+ .authority_content p{
+   
+font-size: 24px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+
+
+
+ }
+ /* Follow  us */
+ .follow-us {
+   
+    padding: 30px;
+    background:rgba(60, 60, 60, 1);
+    ;
+}
+.follow-us-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-around
+}
+ .follow-us-content h3{
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.follow-us-content span{
+    color: #FCA311;
+}
+
+.follow-us-social{
+    
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.follow-us-content img{
+    border-left: 1px solid #FCA311;
+    padding: 30px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #FCA311;
+}
+.footer-wraper{
+    padding: 50px;
+}
+.footer-info-link{
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+.footer-info-link ul {
+    
+    list-style: none;
+}
+.footer-info-link ul a{
+    
+    text-decoration: none;
+    color: #000;
+
+}
+.footer-copyright{
+    border-top: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.wraper{
+    padding: 10px;
+}
+.footer-info p{
+    padding: 10px;
+}

@@ -82,6 +82,7 @@ body{
     padding: 10px 20px;
     border-radius: 5px;
 }
+/* HERO SECTION */
 .wraper{
     display: flex;
     gap: 5px;
@@ -121,7 +122,7 @@ body{
     background:#1F2324;
     
 }
-.review{
+ .review{
     display: flex;
     margin-bottom: 30px;
     margin-left: 20px;
@@ -129,7 +130,7 @@ body{
     justify-content: flex-end;
     gap: 10px; 
     padding-left: 20px;
-}
+} 
 .left h2{
     font-size:36px ;
     line-height:40px ;
@@ -436,6 +437,7 @@ body{
 
 }
 
+/* Follow us */
 .follow-us {
    
     padding: 30px;
@@ -469,6 +471,7 @@ body{
 }
 
 /* FOOTER */
+/* FOOTER */
 footer{
     background-color: #FCA311;
 }
@@ -476,6 +479,7 @@ footer{
     padding: 50px;
 }
 .footer-info-link{
+    text-align: center;
     font-size: 16px;
     line-height: 20px;
 }
@@ -495,5 +499,8 @@ footer{
     text-align: center;
 }
 .wraper{
+    padding: 10px;
+}
+.footer-info p{
     padding: 10px;
 }
