@@ -519,3 +519,244 @@ footer{
 .footer-info p{
     padding: 10px;
 }
+
+
+/* About us page  */
+
+.banner_about_us{
+    background-image: url("../Images/banner_about-us.png");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    background-color: gray;
+    background-blend-mode:multiply
+    
+}
+.banner-content_about h1{
+    text-transform: uppercase;
+
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 50px 20px 75px 20px;
+
+}
+/* ABOUT us */
+.about_us{
+    padding: 80px;
+    
+}
+.about_us p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.about_us .top_about{
+    margin-top: 0px;
+     text-align: center;
+     margin-bottom: 100px;
+     
+ }
+ .top_about h2 {
+    text-transform: uppercase;
+     font-size:36px ;
+     line-height:40px ;
+     font-weight: 700;
+     margin-bottom: 20px;
+ 
+ }
+ .top_about h3{
+    text-align: center;
+ }
+ .top_about h2 span{
+    color: #FCA311;
+}
+.about_us img{
+    width: 100%;
+    display: block;
+}
+
+.review{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 10px; 
+    padding-left: 20px;
+} 
+.left h2{
+    font-size:36px ;
+    line-height:40px ;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.left h3{
+    font-size:24px ;
+    line-height:30px ;
+    font-weight: 700;
+
+}
+.review img{
+    margin-left: 15px;
+}
+.review h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.review h4 span{
+    display: inline-block;
+    color: #FCA311;
+}
+.review .primary-btn{
+    margin-left: 20px;
+}
+/* mission vission */
+.mission_vission{
+    margin: 20px;
+    padding: 20px;
+}
+.mission_vission .top{
+    margin-top: 0px;
+     text-align: center;
+     margin-bottom: 100px;
+     text-transform: uppercase;
+     
+ }
+ .mission_vission h4{
+    text-transform: uppercase;
+ }
+ .mission_vission img{
+    width: 100%;
+    display: block;
+ }
+ .mission_vission_content{
+    margin-top: 80px;
+    
+ }
+ .mission_vission h4{
+    color: #FCA311;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+ }
+ .mision_vission_box img{
+    width: 30%;
+    margin-left: 80px;
+    
+ } 
+ .mision_vission_box{
+    text-align: center;
+    padding: 30px;
+    border: 1px solid  #3C3C3C;
+    height: 100%;
+ }
+ /* Authority_content */
+ .authority_dialogue{
+    margin: 50px;
+padding: 50px;
+ }
+ .authority_dialogue .top{
+    margin-top: 0px;
+     text-align: center;
+     margin-bottom: 100px;
+     text-align: center;
+     
+ }
+ .authority_dialogue .top h3{
+    text-transform: uppercase;
+ }
+ .authority_content p{
+   
+font-size: 24px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+
+
+
+ }
+
+/* Contact_US page */
+.banner_contact_us{
+    background-image: url("../Images/banner_c_u.png");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    background-color: gray;
+    background-blend-mode:multiply
+    
+}
+.banner_contact_us .banner-content_contact h1{
+
+    text-transform: uppercase;
+
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 50px 40px 75px 40px;
+
+
+}
+.banner_contact_us .banner-content_contact h1 span{
+    color: #FCA311;
+}
+.left_contact_us{
+    flex-basis: 65%;
+    background-color: #FCA311;
+    padding: 40px ;
+    position: relative;
+    padding-bottom: 180px;
+    text-align: center;
+}
+.left_contact_us h4{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.left_contact_us::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: -1000px;
+    background: #FCA311;
+}
+.address-block{
+    color: #fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   padding:20px;
+   gap: 30px;
+}
+.contact_us_form{
+    margin-bottom: 20px;
+}
+.contact_us_form input{
+    width: 100%;
+    border-radius: 5px;
+    border: 2;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.contact_us_form textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 2;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.contact_us_form button{
+    margin: 100px;
+}
