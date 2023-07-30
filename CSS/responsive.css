@@ -1,0 +1,496 @@
+@media screen and (max-width:1200px){
+    
+}
+@media screen and (max-width:1024px) {
+    .banner-content h2{
+        font-size:26px ;
+    }
+    .banner-content h1{
+        font-size: 40px;
+        max-width: 100%;
+    }
+    .primary-btn {
+        
+        padding: 8px 18px;
+        
+    }
+    .left h2{
+        font-size: 24px;
+    }
+    .left h3{
+        font-size: 18px;
+    }
+    .top h2 {
+        font-size:28px ;
+      
+    
+    }
+    .top p{
+       
+        font-size: 18px;
+      
+    }
+    .our_scope .left_content h3 {
+        font-size: 25px;
+        
+    }
+    .our_scope .left_content span {
+        font-size: 50px;
+        
+    }
+    .our_scope .left_content h2 {
+       
+        font-size: 30px;
+        
+    }
+    .follow-us-content {
+        padding: 100px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .follow-us-content h3 {
+        font-size: 25px;
+       
+    }
+    .follow-us-content img {
+        border-left: 1px solid #FCA311;
+        padding: 30px;
+    }
+    .footer-info img{
+        width: 80%;
+    }
+
+
+    /* ABOUT US PAGE */
+    .banner-content_about h1 {
+        
+        font-size: 28px;
+        
+    }
+.nav-item img{
+    width: 4%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mision_vission_box img {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left_contact_us{
+    text-align: center;
+}
+.left_contact_us::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: -1000px;
+    background: #FCA311;
+}
+.left_contact_us{
+    overflow-x: hidden;
+}
+}
+
+@media screen and (max-width:768px) {
+    .logo img{
+        width: 70%;
+        
+    }
+    .banner-content{
+        padding: 100px;
+    }
+    .banner-content h2{
+        font-size:20px ;
+    }
+    .banner-content h1{
+        font-size: 30px;
+        max-width: 100%;
+    }
+    .main-menu .navbar-collapse{
+        background-color: #0000005a;
+    }
+    .main-menu .nav-link{
+        text-align: center;
+    }
+   .banner-content .primary-btn {
+        
+        padding: 7px 15px;
+        
+    }
+    .left h2{
+        font-size: 24px;
+    }
+    .left h3{
+        font-size: 18px;
+    }
+    
+    .hero .primary-btn {
+        
+        font-size: 14px;
+        
+        padding: 8px 15px;
+        
+    }
+    
+    .top h2 {
+        font-size:22px ;
+      
+    
+    }
+    .top p{
+       
+        font-size: 14px;
+      
+    }
+    .our_scope .left_content h3 {
+        font-size: 21px;
+        
+    }
+    .our_scope .left_content span {
+        font-size: 42px;
+        
+    }
+    .our_scope .left_content h2 {
+       
+        font-size: 22px;
+        
+    }
+    .our_scope_button .primary-btn{
+        text-align: center;
+
+    }
+    .scope_list{
+        margin-bottom: 50px;
+
+    }
+    .scope_list .col-lg-4{
+        margin-bottom: 20px;
+    }
+    .right_content .primary-btn{
+       margin: auto;
+    }
+    .heading h2 {
+        
+        font-size: 30px;
+       
+    }
+    .heading p {
+        
+        font-size: 20px;
+        
+    }
+    .featured-project-list-info h3 {
+        font-size: 30px;
+        text-align: center;
+       
+    }
+    .featured-project-list-info h4 {
+        font-size: 14px;
+        text-align: center;
+        
+    }
+    .home-contact-info h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .left_content{
+        text-align: center;
+    }
+    .left_content::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        right: -1000px;
+        background: #FCA311;
+    }
+    .star-icon{
+        padding-top: 20px;
+
+        margin: auto;
+        width: 25%;
+    }
+    .cta-lists-items img{
+        width: 40%;
+    }
+    .follow-us-social {
+        padding: 30px;
+        display: flex;
+    }
+    .follow-us-content {
+        padding: 70px;
+       
+    }
+    .footer-info{
+        padding-bottom: 15px;
+    }
+    .footer-info img{
+        
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: block;
+    }
+    .footer-info-link{
+        padding-bottom: 20px;
+    }
+    .footer-info p{
+        text-align: center;
+    }
+    .footer-info-link .wraper{
+        padding: 10px;
+        margin: auto;
+        width: 30%;
+    }
+    .authority_content p {
+        font-size: 18px;
+        
+    }
+}
+
+
+  @media screen and (max-width: 430px) {
+    .logo img{
+        width: 30%;
+    }
+    .hero .wraper{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .left::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        right: -1000px;
+        background: #FCA311;
+    }
+    .right::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 100%;
+        left: -1000px;
+        background:#1F2324;
+        
+    }
+    .featured-project-list-info h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .review h4 {
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 700;
+      }
+    .cta-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .star-icon {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .home-contact-info h2 {
+        font-size: 48px;
+        line-height: 72px;
+        color: #FCA311;
+        margin-bottom: 30px;
+    }
+    .follow-us-content {
+        padding: 100px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .follow-us-content h3{
+        font-size: 25px;
+        line-height: 20px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .follow-us-content img{
+        border-left: 0px;
+        border-bottom: 1px solid #FCA311;
+        padding: 20px;
+        width: 100%;
+        margin: 10px;
+    }
+    .follow-us-social{
+        flex-direction: column;
+    }
+    .home-contact-form-button a {
+        color: #fff;
+        
+    margin-left: 75px;
+        
+      }
+      .home-contact-form-button a {
+        color: #fff;
+        margin-left: 125px;
+    }
+
+    .about_us .top_about {
+        margin-top: 0px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .about_us {
+        padding: 40px;
+    }
+    .about_us p {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    .top_about h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+    top_about h2 {
+        
+        font-size: 30px;
+    
+    }   
+    .authority_dialogue {
+        margin: 30px;
+        padding: 30px;
+    }  
+            
+    .authority_dialogue .top h2 {
+        font-size: 20px;
+    }
+    .authority_dialogue .top h3 {
+        font-size: 18px;
+    }
+    .authority_content p {
+        font-size: 15px;
+        
+    }
+    .mision_vission h3{
+        font-size: 19px;
+    }
+ 
+.row>* {
+        flex-shrink: 0;
+        width: 100%;
+        padding: 10px;
+        max-width: 100%;
+        
+    }
+    .banner-content_about h1 {
+        font-size: 22px;
+    }
+  }
+
+
+@media screen and (max-width:380px) {
+    .logo img{
+        width: 20%;
+        
+    }
+   
+    
+    .banner-content{
+        padding: 50px;
+    }
+    
+    .hero .primary-btn {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .heading h2 {
+        font-size: 18px;
+        margin-bottom: 2px;
+        padding-bottom: 2px;
+    }
+    .heading p {
+        
+        font-size: 12px;
+        line-height: 26px;
+        margin: 1px;
+        padding: 1px;
+        
+    }
+    .home-contact-info h2 {
+        font-size: 38px;
+        line-height: 72px;
+        color: #FCA311;
+        margin-bottom: 30px;
+    }
+    .featured-project-list-info h4 {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .featured-project-list-info h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer-info-link .wraper {
+        padding: 10px;
+        margin: auto;
+        width: 30%;
+    }
+    
+    .footer-info-link .wraper {
+        padding: 10px;
+        margin: auto;
+        width: 30%;
+    }
+    .follow-us-content{
+        padding: 50px;
+    }
+    .follow-us-content h3{
+        font-size:18px ;
+    }
+    .follow-us-content img {
+       
+        width: 70%;
+        
+    }
+    .footer-info-link .wraper{
+        padding: 6px;
+        margin: auto;
+        width: 55%;
+
+
+
+    }
+
+    /* ABOUT US PAGE */
+    .about_us p {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    top_about h2 {
+        
+        font-size: 30px;
+       
+    }
+    .authority_dialogue .top h2 {
+        font-size: 20px;
+    }
+    .authority_dialogue .top h3 {
+        font-size: 18px;
+    }
+}

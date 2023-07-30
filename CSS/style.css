@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Barlow', sans-serif;
@@ -33,17 +34,20 @@ body{
     padding: 10px 15px;
 
 }
+.main-menu .nav-link.active {
+    background: #FCA311;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
 .main-menu .nav-link:hover{
      background: #FCA311;
      color: #fff;
      border-radius: 5px;
     
 }
-.main-menu .nav-link .active{
-   
-    border-radius: 5px;
-    color: #fff;
-}
+
 .main-menu .navbar-nav{
     gap: 30px;
 }
@@ -96,6 +100,12 @@ body{
     padding: 40px ;
     position: relative;
     
+}
+.left h2{
+    font-size: 30px;
+}
+.left h3{
+    font-size: 20px;
 }
 .left::before{
     content: "";
@@ -177,6 +187,7 @@ body{
 
 }
 .why_us .top{
+    
    margin-top: 10px;
     text-align: center;
     margin-bottom: 20px;
@@ -188,7 +199,7 @@ body{
     font-weight: 700;
 
 }
-.top pre{
+.top p{
     text-transform: capitalize;
     font-size: 24px;
     line-height: 30px;
@@ -201,6 +212,7 @@ body{
 
   .grid-content{
     text-align: center;
+    height: 100%;
   }
 
   /* OUR SCOPE SECTION  */
@@ -210,7 +222,7 @@ body{
   }
   .our_scope .left_content{
     background: #FCA311;
-    padding: 80px 50px 20px 50px;
+    padding: 80px 50px 80px 50px;
     margin-top: 40px;
   }
   .our_scope .left_content h3{
@@ -241,6 +253,7 @@ body{
     background-color: #FCA311;
     padding: 40px ;
     position: relative;
+   
     
 }
 .left_content::before{
@@ -251,6 +264,9 @@ body{
     right: 100%;
     left: -1000px;
     background: #FCA311;
+}
+.left_content{
+    overflow-x: hidden;
 }
 .heading h2 {
     margin-top: 20px;
@@ -271,6 +287,7 @@ body{
     margin-top: 20px;
     margin-bottom: 100px;
 }
+
 .heading h2 span{
     color: #FCA311;
 }
@@ -278,9 +295,17 @@ body{
     text-align: center;
     padding: 20px;
 }
+.item-info h4{
+    font-weight: 700;
+    font-size: 18px;
+}
 .scope-list-items{
     box-shadow: 0 0 4px 1px #a09687;
     border-radius: 4px;
+    flex: auto;
+  height: 100%;
+  padding: 10px;
+
 }
 .list-item-image img{
     width: 100%;
@@ -318,9 +343,11 @@ body{
 .featured-project-list-image{
     margin: 10px;
     gap: 20px;
+   
 }
 .featured-project-list-info{
     color: #fff;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(14, 1, 1));
     position: absolute;
     left: 0;
     right: 0;
@@ -435,24 +462,51 @@ body{
 
 .home-contact-form textarea{
     width: 100%;
+    height: 50px;
     border-radius: 5px;
     border: 0;
     padding: 10px;
     margin-bottom: 30px;
+
+ 
+}
+#name{
+    background-image: url(/Images/name.png);
+    background-position: right;
+    
+   
+    background-repeat: no-repeat;
+    background-origin: content-box, padding-box;
+}
+#email{
+    background-image: url(/Images/at-the-rate.png);
+    background-position: right;
+   
+    background-repeat: no-repeat;
+    background-origin: content-box, padding-box;
+
+}
+#comment{
+    background-image: url(/Images/comment.png);
+    background-position-x: right;
+    background-position-y:top;
+    background-origin: content-box, padding-box;
+    background-repeat: no-repeat;
 
 }
 
 /* Follow us */
 .follow-us {
    
-    padding: 30px;
+    padding: 10px;
     background:rgba(60, 60, 60, 1);
-    ;
+    
 }
 .follow-us-content{
+    padding:    100px;
     display: flex;
     align-items: center;
-    justify-content:space-around
+    justify-content:space-between;
 }
 .follow-us-content h3{
     font-size: 36px;
@@ -466,13 +520,12 @@ body{
 
 .follow-us-social{
     
-    display: flex;
-    align-items: center;
-    gap: 100px;
-}
+    
+    padding: 20px;
+} 
 .follow-us-content img{
     border-left: 1px solid #FCA311;
-    padding: 30px;
+    padding: 50px;
 }
 
 /* FOOTER */
@@ -502,6 +555,9 @@ footer{
     color: #000;
 
 }
+.bold{
+    font-weight: 700;
+}
 .footer-copyright{
     border-top: 1px solid black;
     padding: 10px;
@@ -515,6 +571,9 @@ footer{
 }
 .wraper{
     padding: 10px;
+}
+.wraper .phone{
+    color:#fff;
 }
 .footer-info p{
     padding: 10px;
@@ -577,6 +636,9 @@ footer{
 .about_us img{
     width: 100%;
     display: block;
+}
+.authority_dialogue .top h2{
+    text-transform: uppercase;
 }
 
 .review{
@@ -712,11 +774,12 @@ text-align: center;
     color: #FCA311;
 }
 .left_contact_us{
-    flex-basis: 65%;
+    flex-basis: 50%;
     background-color: #FCA311;
     padding: 40px ;
     position: relative;
-    padding-bottom: 180px;
+    padding-top: 150px;
+    padding-bottom: 220px;
     text-align: center;
 }
 .left_contact_us h4{
@@ -731,6 +794,25 @@ text-align: center;
     right: 100%;
     left: -1000px;
     background: #FCA311;
+}
+.contact_top{
+    margin-top: 20px;
+     text-align: center;
+     margin-bottom: 80px;
+     
+ }
+ .contact_top h2 {
+    text-transform: uppercase;
+     font-size:36px ;
+     line-height:40px ;
+     font-weight: 700;
+     margin-bottom: 20px;
+    
+ 
+ }
+ 
+ .contact_top h2 span{
+    color: #FCA311;
 }
 .address-block{
     color: #fff;
