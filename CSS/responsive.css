@@ -1,6 +1,7 @@
 @media screen and (max-width:1200px){
     
 }
+
 @media screen and (max-width:1024px) {
     .banner-content h2{
         font-size:26px ;
@@ -97,6 +98,22 @@
     overflow-x: hidden;
 }
 }
+@media screen and (max-width:999px) {
+
+    .left_content{
+        text-align: center;
+        overflow-x: hidden;
+    }
+    .left_content::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        right: -1000px;
+        background: #FCA311;
+    }
+}
 
 @media screen and (max-width:768px) {
     .logo img{
@@ -130,7 +147,9 @@
     .left h3{
         font-size: 18px;
     }
-    
+    .left_content{
+        overflow-x: hidden;
+    }
     .hero .primary-btn {
         
         font-size: 14px;
@@ -265,6 +284,8 @@
         flex-direction: column;
         gap: 10px;
     }
+    
+    
     .left::after{
         content: "";
         position: absolute;
@@ -475,9 +496,6 @@
 
 
     }
-.left_content{
-    overflow-x: hidden;
-}
 
     /* ABOUT US PAGE */
     .about_us p {
