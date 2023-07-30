@@ -265,9 +265,7 @@ body{
     left: -1000px;
     background: #FCA311;
 }
-.left_content{
-    overflow-x: hidden;
-}
+
 .heading h2 {
     margin-top: 20px;
     margin-bottom: 40px;

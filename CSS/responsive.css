@@ -475,6 +475,9 @@
 
 
     }
+.left_content{
+    overflow-x: hidden;
+}
 
     /* ABOUT US PAGE */
     .about_us p {
